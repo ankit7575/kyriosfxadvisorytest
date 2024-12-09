@@ -1,0 +1,123 @@
+/* General Styles */
+.customer-dashboard {
+    padding: 30px;
+    background: linear-gradient(135deg, #ece9e6 0%, #ffffff 100%);
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Header Styles */
+  .dashboard-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2a2a2a;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  .dashboard-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #3e8ef7;
+  }
+  
+  /* User Profile Card Styles */
+  .user-details {
+    width: 100%;
+    max-width: 700px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 20px;
+    border: 1px solid #f0f0f0;
+    position: relative;
+  }
+  
+  .user-details:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Inner content inside the user profile card */
+  .user-details p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+    transition: color 0.2s ease;
+  }
+  
+  /* Strong text for labels inside the user profile */
+  .user-details p strong {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Error Message Styling */
+  .error-message {
+    color: #ff3d3d;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Loading State Styling */
+  p.loading {
+    color: #3e8ef7;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Media Queries for Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .customer-dashboard {
+      padding: 20px;
+    }
+  
+    .dashboard-title {
+      font-size: 2rem;
+    }
+  
+    .user-details {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .user-details p {
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .customer-dashboard {
+      padding: 15px;
+    }
+  
+    .dashboard-title {
+      font-size: 1.75rem;
+    }
+  
+    .user-details {
+      padding: 15px;
+    }
+  
+    .user-details p {
+      font-size: 0.9rem;
+    }
+  }
+  

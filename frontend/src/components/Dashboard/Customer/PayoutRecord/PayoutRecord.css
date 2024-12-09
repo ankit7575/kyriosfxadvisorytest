@@ -1,0 +1,169 @@
+/* General Payout Container */
+.payout-container {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Page Title */
+  .page-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Section Title */
+  .section-title {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  /* Table Styling */
+  .payout-table, .history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Withdraw Button Styling */
+  .withdraw-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .withdraw-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Withdrawal Form Styling */
+  .withdrawal-form {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Withdrawal Form Section Title */
+  .withdrawal-form .section-title {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  /* Available Balance Text */
+  .withdrawal-form p {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .withdrawal-form p strong {
+    color: #007BFF;
+  }
+  
+  /* Input Container for Withdrawal */
+  .withdraw-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  /* Withdrawal Input Field */
+  .withdraw-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    transition: border 0.3s ease;
+  }
+  
+  .withdraw-input:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Submit Button Styling */
+  .submit-withdraw-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-withdraw-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  /* Balance Amount Styling */
+  .balance-amount {
+    font-weight: bold;
+    color: #007BFF;
+  }
+  
+  /* Request History Section Styling */
+  .request-history {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Design for Small Screens */
+  @media (max-width: 768px) {
+    .withdrawal-form {
+      padding: 20px;
+      margin-top: 20px;
+    }
+  
+    .withdraw-input-container {
+      width: 100%;
+    }
+  
+    .withdraw-input, .submit-withdraw-btn {
+      width: 100%;
+    }
+  }
+  

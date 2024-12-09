@@ -1,0 +1,330 @@
+{
+  "_id": {
+    "$oid": "67433c805ec2bf0553a957e2"
+  },
+  "name": "mohit",
+  "email": "ankitvashist764@gmail.com",
+  "emailVerified": true,
+  "phone": "+917206309385",
+  "password": "$2a$10$H5IWF7foKC3X6w0pOFozReEz411AGgjf1yi.esVRZ2J2vOP.p8ZEe",
+  "referralId": "REF-D44PE8D",
+  "referralbyId": null,
+  "otpVerified": true,
+  "status": "active",
+  "loginAttempts": 0,
+  "referral": {
+    "directReferral": [
+      {
+        "user": "67433cb25ec2bf0553a957e5",
+        "name": "ankit",
+        "history": [
+          {
+            "fortnightlyProfitIncentive": [
+              {
+              "date": {
+                      "$date": "2024-11-24T14:48:49.514Z"
+                    },
+                    "fortnightlyProfit": 100,
+                    "directIncentive": 15,
+                    "_id": {
+                      "$oid": "67433cd15ec2bf0553a957f4"
+                    }
+              }
+            ],
+            "createdAt": {
+              "$date": "2024-11-24T14:48:49.514Z"
+            },
+            "_id": {
+              "$oid": "67433cd15ec2bf0553a957f2"
+            }
+          },
+          {
+            "fortnightlyProfitIncentive": [
+              {
+                "date": {
+                  "$date": "2024-11-24T14:52:53.243Z"
+                },
+                "fortnightlyProfit": 100,
+                "directIncentive": 15,
+                "_id": {
+                  "$oid": "67433dc55ec2bf0553a95804"
+                }
+              }
+            ],
+            "createdAt": {
+              "$date": "2024-11-24T14:52:53.243Z"
+            },
+            "_id": {
+              "$oid": "67433dc55ec2bf0553a95802"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "67433cb25ec2bf0553a957e8"
+        }
+      },
+      {
+        "user": "67433cb25ec2bf0553a57875",
+        "name": "rohit",
+        "history": [
+          {
+            "fortnightlyProfitIncentive": [
+              {
+              "date": {
+                      "$date": "2024-11-24T14:48:49.514Z"
+                    },
+                    "fortnightlyProfit": 100,
+                    "directIncentive": 15,
+                    "_id": {
+                      "$oid": "67433cd15ec2bf0553a957f4"
+                    }
+              }
+            ],
+            "createdAt": {
+              "$date": "2024-11-24T14:48:49.514Z"
+            },
+            "_id": {
+              "$oid": "67433cd15ec2bf0553a957f2"
+            }
+          },
+          {
+            "fortnightlyProfitIncentive": [
+              {
+                "date": {
+                  "$date": "2024-11-24T14:52:53.243Z"
+                },
+                "fortnightlyProfit": 100,
+                "directIncentive": 15,
+                "_id": {
+                  "$oid": "67433dc55ec2bf0553a95804"
+                }
+              }
+            ],
+            "createdAt": {
+              "$date": "2024-11-24T14:52:53.243Z"
+            },
+            "_id": {
+              "$oid": "67433dc55ec2bf0553a95802"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "67433cb25ec2bf0553a957e8"
+        }
+      }
+    ],
+    "stage2Referral": [  {
+      "user": "674253255ec2bf0553a957e5",
+      "name": "happy",
+      "history": [
+        {
+          "fortnightlyProfitIncentive": [
+            {
+            "date": {
+                    "$date": "2024-11-24T14:48:49.514Z"
+                  },
+                  "fortnightlyProfit": 100,
+                  "directIncentive": 15,
+                  "_id": {
+                    "$oid": "67433cd15ec2bf0553a957f4"
+                  }
+            }
+          ],
+          "createdAt": {
+            "$date": "2024-11-24T14:48:49.514Z"
+          },
+          "_id": {
+            "$oid": "67433cd15ec2bf0553a957f2"
+          }
+        },
+        {
+          "fortnightlyProfitIncentive": [
+            {
+              "date": {
+                "$date": "2024-11-24T14:52:53.243Z"
+              },
+              "fortnightlyProfit": 100,
+              "directIncentive": 15,
+              "_id": {
+                "$oid": "67433dc55ec2bf0553a95804"
+              }
+            }
+          ],
+          "createdAt": {
+            "$date": "2024-11-24T14:52:53.243Z"
+          },
+          "_id": {
+            "$oid": "67433dc55ec2bf0553a95802"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "67433cb25ec2bf0553a957e8"
+      }
+    },
+    {
+      "user": "67433cb25e7587783a57875",
+      "name": "sundr",
+      "history": [
+        {
+          "fortnightlyProfitIncentive": [
+            {
+            "date": {
+                    "$date": "2024-11-24T14:48:49.514Z"
+                  },
+                  "fortnightlyProfit": 100,
+                  "directIncentive": 15,
+                  "_id": {
+                    "$oid": "67433cd15ec2bf0553a957f4"
+                  }
+            }
+          ],
+          "createdAt": {
+            "$date": "2024-11-24T14:48:49.514Z"
+          },
+          "_id": {
+            "$oid": "67433cd15ec2bf0553a957f2"
+          }
+        },
+        {
+          "fortnightlyProfitIncentive": [
+            {
+              "date": {
+                "$date": "2024-11-24T14:52:53.243Z"
+              },
+              "fortnightlyProfit": 100,
+              "directIncentive": 15,
+              "_id": {
+                "$oid": "67433dc55ec2bf0553a95804"
+              }
+            }
+          ],
+          "createdAt": {
+            "$date": "2024-11-24T14:52:53.243Z"
+          },
+          "_id": {
+            "$oid": "67433dc55ec2bf0553a95802"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "67433cb25ec2bf0553a957e8"
+      }
+    }],
+    "stage3Referral": [  {
+      "user": "67433c57587c2bf0553a957e5",
+      "name": "rampal",
+      "history": [
+        {
+          "fortnightlyProfitIncentive": [
+            {
+            "date": {
+                    "$date": "2024-11-24T14:48:49.514Z"
+                  },
+                  "fortnightlyProfit": 100,
+                  "directIncentive": 15,
+                  "_id": {
+                    "$oid": "67433cd15ec2bf0553a957f4"
+                  }
+            }
+          ],
+          "createdAt": {
+            "$date": "2024-11-24T14:48:49.514Z"
+          },
+          "_id": {
+            "$oid": "67433cd15ec2bf0553a957f2"
+          }
+        },
+        {
+          "fortnightlyProfitIncentive": [
+            {
+              "date": {
+                "$date": "2024-11-24T14:52:53.243Z"
+              },
+              "fortnightlyProfit": 100,
+              "directIncentive": 15,
+              "_id": {
+                "$oid": "67433dc55ec2bf0553a95804"
+              }
+            }
+          ],
+          "createdAt": {
+            "$date": "2024-11-24T14:52:53.243Z"
+          },
+          "_id": {
+            "$oid": "67433dc55ec2bf0553a95802"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "67433cb25ec2bf0553a957e8"
+      }
+    },
+    {
+      "user": "67433474747c2bf0553a57875",
+      "name": "ravi",
+      "history": [
+        {
+          "fortnightlyProfitIncentive": [
+            {
+            "date": {
+                    "$date": "2024-11-24T14:48:49.514Z"
+                  },
+                  "fortnightlyProfit": 100,
+                  "directIncentive": 15,
+                  "_id": {
+                    "$oid": "67433cd15ec2bf0553a957f4"
+                  }
+            }
+          ],
+          "createdAt": {
+            "$date": "2024-11-24T14:48:49.514Z"
+          },
+          "_id": {
+            "$oid": "67433cd15ec2bf0553a957f2"
+          }
+        },
+        {
+          "fortnightlyProfitIncentive": [
+            {
+              "date": {
+                "$date": "2024-11-24T14:52:53.243Z"
+              },
+              "fortnightlyProfit": 100,
+              "directIncentive": 15,
+              "_id": {
+                "$oid": "67433dc55ec2bf0553a95804"
+              }
+            }
+          ],
+          "createdAt": {
+            "$date": "2024-11-24T14:52:53.243Z"
+          },
+          "_id": {
+            "$oid": "67433dc55ec2bf0553a95802"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "67433cb25ec2bf0553a957e8"
+      }
+    }]
+  },
+  "profile": {
+    "plan": null,
+    "capital": 0
+  },
+  "verification": {
+    "adminVerified": false,
+    "verificationStatus": "pending"
+  },
+  "role": "referral",
+  "payoutRequest": {
+    "history": []
+  },
+  "createdAt": {
+    "$date": "2024-11-24T14:47:28.381Z"
+  },
+  "fortnightlyProfit": [],
+  "__v": 3
+}
